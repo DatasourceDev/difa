@@ -1,0 +1,12 @@
+/nbproject/private/
+*.log
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+uploads/*
+/protected/uploads
+/protected/vendors/mpdf60/ttfontdata
+/protected/data/20180923-cdt_divifa_rep.sql

@@ -1,0 +1,104 @@
+@font-face {
+    font-family:"Code 128";
+    src:url("../fonts/code128.eot?") format("eot"),
+        url("../fonts/code128.woff") format("woff"),
+        url("../fonts/code128.ttf") format("truetype"),
+        url("../fonts/code128.svg#Code128") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+#nav-download {
+    padding:0px;
+}
+#nav-download li {
+    list-style: none;
+    border-bottom: 1px solid #efefef;
+    min-height: 44px;
+}
+#nav-download li a {
+    display:block;
+    padding:3px;
+    text-decoration: none;
+}
+#nav-download li .glyphicon{
+    font-size:22px;
+    float:left;
+    margin:3px 8px;
+}
+#nav-download li span {
+    display:block;
+}
+#nav-download li small {
+    color:#9d9d9d;
+}
+
+#nav-question {
+    padding:0px;
+}
+#nav-question li {
+    list-style: none;
+    border-bottom: 1px solid #efefef;
+    min-height: 44px;
+}
+#nav-question li a {
+    display:block;
+    padding:3px;
+    text-decoration: none;
+}
+#nav-question li .glyphicon{
+    font-size:22px;
+    float:left;
+    margin:3px 8px;
+}
+#nav-question li span {
+    display:block;
+}
+#nav-question li small {
+    color:#9d9d9d;
+}
+
+.table-responsive {
+    overflow-x:auto;
+}
+.input-allow {
+    background-color:#fff1d1!important;
+    cursor: auto!important;
+}
+
+h5 {font-size:18px;}
+.barcode128 {font-family: 'Code 128';font-size:42px;}
+.same-addr {margin-top:8px;}
+.control-text {padding-top:7px;}
+.text-small {font-size: small;}
+
+.grid-view thead {
+    background: #674073;
+    color: #ffffff;
+}
+.grid-view thead a {
+    color: #ffffff;
+}
+.no-bullet {list-style: none;}
+.btn-block+div.tooltip+.btn-block {margin-top: 5px;}
+
+input[type="file"] {height:auto;}
+.nowrap {white-space: nowrap}
+
+.thumbnail img {
+width:100%;
+}
+.btn.disabled, .btn[disabled="disabled"] {
+    pointer-events: auto;
+}
+
+.text-uppercase {text-transform: uppercase;}
+.web-content-body img {max-width: 100%;}
+
+.captcha img {margin-right:10px;}
+
+main {
+
+    /* font-family: supermarket; */
+    font-size: 16px;
+}

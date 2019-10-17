@@ -1,0 +1,16 @@
+php_value mbstring.internal_encoding UTF-8
+
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} !^www.xn--42caiaa9gsdtczacc0dbf7d3hyfydi.com$ [NC]
+#RewriteRule ^(.*)$ http://www.xn--42caiaa9gsdtczacc0dbf7d3hyfydi.com/$1 [L,R=301]
+
+#RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+#RewriteRule .* – [F,L]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php

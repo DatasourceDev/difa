@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    header .logo {
+        float:none;
+        text-align: center;
+    }
+    header .title {
+        float:none;
+        text-align: center;
+    }
+    header h1 {
+
+    }
+
+    header h2 {
+
+    }
+}

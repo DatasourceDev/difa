@@ -1,0 +1,129 @@
+@font-face{
+    font-family:'supermarket';
+    src:url("../fonts/supermarket-webfont.eot");
+    src:
+        url("../fonts/supermarket-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/supermarket-webfont.woff") format("woff"),
+        url("../fonts/supermarket-webfont.tff") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+    letter-spacing:0.1em
+}
+
+body {
+    color:#535353;
+    background:#BFB790;
+}
+
+header {
+    color:#ffffff;
+    padding:10px 0px;
+    background:url(../images/bg.jpg) no-repeat;
+}
+header .logo {
+    float:left;
+}
+header .title {
+    float:left;
+    margin-left:20px;
+    margin-top:22px;
+}
+header h1 {
+    font-size:28px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+}
+
+header h2 {
+    font-size:18px;
+    padding-top: 0px;
+    margin-top:0px;
+}
+
+main {
+    background:url(../images/web-bg.jpg);
+}
+
+footer {
+    padding:10px 0px;
+    color:#ffffff;
+}
+
+h4.fancy {
+    border-bottom: 3px solid #f8eaf8;
+}
+
+#page {
+    background:#ffffff;
+    min-height: 760px;
+    border-left:1px solid #C1C1C1;
+    border-right:1px solid #C1C1C1;
+    padding:15px;
+}
+
+#language-tools {
+    float:right;
+}
+
+.fancy {
+    font-family: supermarket;
+}
+
+.topic {
+    font-family: supermarket;
+    font-size:22px;
+    padding:4px 8px;
+    border-left:9px solid #A2844F;
+    background:#F9F9F9;
+    margin-bottom: 15px;
+}
+
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+    margin-right: 0;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.form-inline .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.event-holiday {background: #ce2020;}
+.event-exam-et {background:green;}
+.event-exam-ih {background:red;}
+.event-exam-en {background:yellow;}
+
+.subMenu {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.subItems {
+   font-size: 20px;
+   font-family: supermarket;
+   color: white;
+   background-color: #BDA000;
+   width: 120px;
+   height: 120px;
+   line-height: 120px;
+   border: none;
+   border-radius: 60px;
+   margin: 0 auto;
+   cursor: pointer;
+   -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.1)));
+   margin-bottom: 30px;
+}
+
+   .subItems.news {
+      line-height: 30px;
+      display: table;
+      vertical-align: middle;
+   }
+
+      .subItems.news span {
+         display: table-cell;
+         vertical-align: middle;
+      }

@@ -1,0 +1,31 @@
+
+.accordion {
+   background-color: transparent;
+   cursor: pointer;
+   padding: 18px 0px;
+   width: 100%;
+   text-align: left;
+   outline: none;
+   transition: 0.4s;
+   border: none;
+   border-bottom: 1px solid;
+   font-size: 22px;
+   color: #428bca;
+}
+
+.panel {
+   padding: 10px 0px;
+   display: none;
+   overflow: hidden;
+   font-size: 1em;
+   font-size: 16px;
+   color: #9d9d9d;
+}
+
+.accordion .glyphicon.glyphicon-chevron-down {
+   float: right;
+}
+
+.accordion .glyphicon.glyphicon-chevron-up {
+   float: right;
+}

@@ -1,0 +1,127 @@
+@font-face{
+    font-family:'supermarket';
+    src:url("../fonts/supermarket-webfont.eot");
+    src:
+        url("../fonts/supermarket-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/supermarket-webfont.woff") format("woff"),
+        url("../fonts/supermarket-webfont.tff") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+    letter-spacing:0.1em;
+}
+#web-content-page {
+    padding:15px;
+}
+.same-addr {margin-top:12px;}
+#web-content-page img {
+    max-width: 100%;
+}
+
+.captcha img {margin-right:10px;}
+.help-block {font-size:smaller;}
+.text-bold {font-weight: bold;}
+.tree-box {
+    margin:3px;
+    width:42px;
+    height: 8px;
+    border-left:1px dotted #636363;
+    border-bottom: 1px dotted #636363;
+    display:inline-block;
+}
+#page {
+    padding-top:10px;
+}
+.text-muted .glyphicon {
+    opacity: 0.25;
+}
+.thumbnail img {width:100%;}
+.control-text {padding-top:7px;}
+.fancy {
+    font-family: supermarket;
+}
+.no-padding {padding: 0px;}
+.topic {
+    font-family: supermarket;
+    font-size:22px;
+    padding:4px 8px;
+    border-left:9px solid #7b21a8;
+    background:#F9F9F9;
+    margin-bottom: 15px;
+}
+
+.grid-view {
+    font-size:smaller;
+}
+
+.grid-view thead {
+    background: #674073;
+    color: #ffffff;
+}
+.grid-view thead a {
+    color: #ffffff;
+}
+
+.nav-menu-icon {margin-right: 8px;}
+
+.text-white {color:#ffffff;}
+.text-sm {font-size:small;}
+.text-bold {font-weight: bold;}
+.label a.text-white:hover {color:#ffffff;text-decoration: none;}
+
+.exam-task-item {float:left;}
+.exam-task-item label {width:32px;font-size: small;text-align: right;}
+
+.icon-status {margin:0px 5px;}
+
+
+.event-holiday {background: #ce2020;}
+
+.nav-tabs+.btn-toolbar {margin-top: 15px;}
+
+.info-box {border-radius: 6px;padding:8px;}
+.info-box.bg-info {border:1px solid #AEBBCE;}
+.info-box.bg-warning {border:1px solid #DEC67C;}
+.info-box.bg-danger {border:1px solid #CE8585;}
+
+.text-small {font-size: 0.85em;}
+.text-underline {text-decoration: underline;}
+.border-bottom {border-bottom: 2px solid #254560;}
+
+.ui-datepicker{z-index: 1051 !important;}
+
+.form-inline .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.subtopic {
+    border-bottom: 3px solid #f8eaf8;
+}
+
+.ui-datepicker{z-index: 1051 !important;}
+.datepicker  {z-index: 1051 !important;}
+
+.margin-bottom {margin-bottom: 15px;}
+
+#frm-register h4.fancy {background:#E9F2FF;padding:0.3em 0.8em;}
+#frm-register label {font-size:smaller;}
+
+.text-uppercase {text-transform: uppercase;}
+.web-content-body img {max-width: 100%;}
+.bg-purple {
+    background: #dcb6d7;
+}
+.bg-yellow {
+    background: #fbff83;
+}
+
+.bg-red {
+    background: #ffbebe;
+}
+.text-blue {
+    color:#6073ff;
+}
+
+.text-muted-darker {
+    color:#343434; 
+} 
