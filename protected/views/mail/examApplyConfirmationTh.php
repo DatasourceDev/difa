@@ -32,5 +32,16 @@ $this->widget('booster.widgets.TbDetailView', array(
     <p>กรุณาพิมพ์บัตรประจำตัวสอบ (เอกสารแนบ) เพื่อเป็นหลักฐานในการเข้าห้องสอบ</p>
 <?php endif; ?>
 <p >**ในกรณีของผู้บกพร่องทางการเห็น กรุณากรอกแบบคำร้องการสอบภาษาอังกฤษ DIFA TES ผ่านระบบ ออนไลน์ที่ <a href="https://goo.gl/forms/WWF4Ys3JpkOArTKZ2" target="_blank">https://goo.gl/forms/WWF4Ys3JpkOArTKZ2</a></p>
+<br />
+<div style="border:2px solid #dc1414;padding:10px">
+   <p>
+      เพื่อป้องกันการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 (COVID-19) จึงขอความร่วมมือผู้สอบทุกท่านตอบแบบคัดกรองผ่านระบบออนไลน์ที่ https://bit.ly/2WFCa02
+   </p>
+   <p>
+      ** ขอขอบคุณในความร่วมมือ **
+   </p>
+</div>
+
+<br />
 <p>ขอบคุณสำหรับการสมัครสอบของท่าน</p>
 <?php $this->endContent(); ?>

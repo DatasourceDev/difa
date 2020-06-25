@@ -462,7 +462,8 @@ class ExamSchedule extends BaseExamSchedule {
         $criteria->compare('exam_schedule_id', $this->id);
         $criteria->compare('is_applicable', self::YES);
         $criteria->addCondition('is_paid = 1 OR (is_paid = 0 AND CONCAT(due_date," ' . Configuration::getKey('payment_due_time') . '") >= NOW())');
-        return ExamApplication::model()->find($criteria);
+        $examApplication  =ExamApplication::model()->find($criteria);
+        return $examApplication;
     }
 
     public function getExamCodeText() {

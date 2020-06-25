@@ -69,7 +69,7 @@ class ReportBarcodeController extends AdministratorController {
         $zpl = '^XA' . "\n";
         $zpl .= '^CW1,E:ANGSANA.FNT^CI28^FS' . "\n";
         $zpl .= '^FO' . $x . ',' . $y . '^BY2,3^BCN,' . $b . ',Y,N,,D^FD' . $application->desk_code . '^FS' . "\n";
-        $zpl .= '^FO' . ($x - 20) . ',' . ($y + 100) . '^FB500,1,0,C,0^A1,N,' . $h . ',' . $w . '^FD' . strtoupper(CHtml::value($application, 'account.profile.fullnameEn')) . '^FS' . "\n";
+        $zpl .= '^FO' . ($x - 20) . ',' . ($y + 100) . '^FB500,1,0,C,0^A0,N,' . $h . ',' . $w . '^FD' . strtoupper(CHtml::value($application, 'account.profile.fullnameEn')) . '^FS' . "\n";
         $zpl .= '^XZ';
         return $zpl;
     }
