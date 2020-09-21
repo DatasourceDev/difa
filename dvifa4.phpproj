@@ -4226,6 +4226,7 @@
     <Compile Include="protected\models\mdb\MdbRound.php" />
     <Compile Include="protected\models\mdb\MdbSubject.php" />
     <Compile Include="protected\models\mdb\MdbUser.php" />
+    <Compile Include="protected\models\WebSliderForm.php" />
     <Compile Include="protected\models\_base\BaseAccount.php" />
     <Compile Include="protected\models\_base\BaseAccountEducation.php" />
     <Compile Include="protected\models\_base\BaseAccountGroup.php" />
@@ -5785,6 +5786,8 @@
     <Compile Include="protected\modules\administrator\views\reportTestResultEnvelope\index.php" />
     <Compile Include="protected\modules\administrator\views\reportTestResultEnvelope\print.php" />
     <Compile Include="protected\modules\administrator\views\reportTestResultReply\index.php" />
+    <Compile Include="protected\modules\administrator\views\webSlider\form - Copy.php" />
+    <Compile Include="protected\modules\administrator\views\webSlider\form.php" />
     <Compile Include="protected\modules\administrator\views\web\_layout.php" />
     <Compile Include="protected\modules\administrator\views\webConfiguration\index.php" />
     <Compile Include="protected\modules\administrator\views\webContactUs\index.php" />

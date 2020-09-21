@@ -1,9 +1,12 @@
 <?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/js/vendor/slick-1.8.1/slick/slick.css'); ?>
 <?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/js/vendor/slick-1.8.1/slick/slick-theme.css'); ?>
 <?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/vendor/slick-1.8.1/slick/slick.min.js', CClientScript::POS_END); ?>
-
+<?php
+$arr =  WebSlider::getSilderIndexArray();
+?>
 <div class="slideshow slideshow-main" id="slideshow-main">
-   <?php for ($i = 1; $i <= 5; $i++):?>
+   <?php for ($index = 1; $index <= 20; $index++):?>
+   <?php $i =array_shift($arr); ?>
    <?php if(WebSlider::hasData($i) && WebSlider::showSlider($i)): ?>
    <?php if(WebSlider::isImage($i)): ?>
    <div class="slideshow-item">
